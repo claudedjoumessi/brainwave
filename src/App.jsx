@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Button from "./components/Button";
 const App = () => {
   return (
-    <div className='h2'>App</div>
-  )
-}
+    <>
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        
+      </div>
+      <ButtonGradient />
+    </>
+  );
+};
 
-export default App
+export default App;
